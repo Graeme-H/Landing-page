@@ -62,7 +62,7 @@ li {
 .containerone {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-evenly;
   /*  color: white; */
 }
 
@@ -71,15 +71,17 @@ button {
     padding: 10px;
     font-weight: bold;
     color: white;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 .awesome {
     display:flex;
     flex-direction: column;
-    margin: 25px;
+    margin: 5px;
     padding: 50px;
     flex: 0 1 450px;
-    
+    justify-content: center;
 }
 
 .websome {
@@ -96,7 +98,5 @@ button {
 
 img {
     padding: 59px;
-    height: auto;
-    max-width: 65%;
-    width: 400px;
+    width: 100%;
 }
