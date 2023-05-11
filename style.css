@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    padding:10px;
+    margin: 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-around;
+}
+
+.logo {
+    padding: 5px;
+    font-size: 24px;
+    flex-grow: 1;
+    font-weight: bolder;
+    
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.links {
+    padding: 10px;
+    flex: 1 1 0;
+    
+} 
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 15px;
+    font-size: 18px;
+    flex: 1 1 0;
+    justify-content: center;
+}
+
+li {
+    justify-content: center;
+}
