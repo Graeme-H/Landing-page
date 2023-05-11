@@ -62,7 +62,7 @@ li {
 .containerone {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: space-around;
   /*  color: white; */
 }
 
@@ -74,16 +74,29 @@ button {
 }
 
 .awesome {
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
     padding: 50px;
+    flex: 0 1 450px;
+    
+}
+
+.websome {
+    font-size:  44px;
+    font-weight: bold;
+    
 }
 
 .img {
     display:flex;
     justify-content: center;
+    flex: 0 1 450px;
 }
 
 img {
     padding: 59px;
     height: auto;
-    max-width: 50%;
+    max-width: 65%;
+    width: 400px;
 }
