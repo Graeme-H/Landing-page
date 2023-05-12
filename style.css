@@ -1,7 +1,10 @@
 body {
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font: 1em sans-serif;
+    font-size: 18px;
     color: white;
+    margin: 0px;
 }
 
 .header {
@@ -14,11 +17,13 @@ body {
 }
 
 .logo {
+    display:flex;
     padding: 5px;
     font-size: 28px;
     flex-grow: 1;
     font-weight: bolder;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -72,13 +77,16 @@ li {
     flex: 1 1 0;
 }
 
+.containerthree {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgrey;
+    padding-bottom: 80px;
+    gap: 10px;
+}
+
 .containerfour {
     display: flex;
-    justify-content: center;
-    padding: 0px;
-    font-size:  20px;
-    font-weight: bold;
-    color: black;
     flex-direction: column;
 }
 
@@ -87,11 +95,56 @@ li {
     font-weight: lighter;
 }
 
+.containerfive {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    gap: 10px;
+}
+
+.para {
+    background-color: blue ;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sign {
+    background-color: blue ;
+    padding: 50px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sign button {
+    padding-left: 25px;
+    padding-right: 25px;
+    border:4px solid;
+    
+}
+
+.action {
+    display: flex;
+    background-color: blue;
+    margin: 80px;
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
 blockquote {
     display: flex;
     flex-direction: column;
     margin: 50px;
     padding: 35px;
+    color: black
 }
 
 cite {
@@ -107,12 +160,13 @@ cite {
     font-weight: bold;
 }
 
-.containerthree {
+/* .containerthree {
     display: flex;
     justify-content: space-evenly;
     background-color: darkgrey;
     padding-bottom: 80px;
-}
+    gap: 10px;
+} */
 
 button {
     background-color: blue ;
@@ -133,10 +187,18 @@ button {
 }
 
 .websome {
-    font-size:  44px;
+    font-size:  48px;
     font-weight: bold;
-    
 }
+
+ img {
+     
+        margin: 10px;
+        max-width:100%;
+        max-height:100%;
+        border: 3px solid black;
+        border-radius: 40px;
+    }  
 
 .img {
     display:flex;
@@ -144,18 +206,38 @@ button {
     flex: 0 1 350px;
 }
 
+
 .img2 {
+    display:flex;
+    justify-content: center;
+    flex: 0 1 350px;
+}
+
+/*.img2 {
     display:flex;
     justify-content: center;
     height: 80px;
     width: 50px;
+}*/
+
+.img2 img {
+    border: 6px solid blue;
+    border-radius: 18px 60px;
 }
 
-img {
-/*    padding: 50px; */
+ /*img {
+  /*  padding: 50px; 
     margin: 10px;
     max-width:100%;
     max-height:100%;
     border: 3px solid black;
-    border-radius: 60px;
+    border-radius: 40px;
+} */
+
+.logo img {
+    justify-content: center;
+    flex: 0 0 15px;
+    border-radius: 140px;
+    height: 60px;
+    width: 60px;
 }
