@@ -16,6 +16,15 @@ body {
     justify-content: space-around;
 }
 
+.footer {
+    display: flex;
+    padding:1px;
+    margin: 0px;
+    background-color: #1F2937;
+  /*  color: #F9FAF8; */
+    justify-content: center;
+}
+
 .logo {
     display:flex;
     padding: 5px;
