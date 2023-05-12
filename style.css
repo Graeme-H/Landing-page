@@ -72,6 +72,33 @@ li {
     flex: 1 1 0;
 }
 
+.containerfour {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size:  20px;
+    font-weight: bold;
+    color: black;
+    flex-direction: column;
+}
+
+.containerfour p {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 35px;
+}
+
+cite {
+    display: flex;
+    justify-content: end;
+}
+
 .raninfo {
     display: flex;
     justify-content: center;
@@ -84,6 +111,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     background-color: darkgrey;
+    padding-bottom: 80px;
 }
 
 button {
