@@ -41,8 +41,6 @@ a:visited {
     
 } 
 
-
-
 ul {
     display: flex;
     list-style: none;
@@ -64,6 +62,28 @@ li {
     background-color: #1F2937;
     justify-content: space-evenly;
   /*  color: white; */
+}
+
+.containertwo {
+    display: flex;
+    background-color: darkgrey;
+    justify-content: space-around;
+    flex-direction: row;
+    flex: 1 1 0;
+}
+
+.raninfo {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.containerthree {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgrey;
 }
 
 button {
@@ -93,10 +113,21 @@ button {
 .img {
     display:flex;
     justify-content: center;
-    flex: 0 1 450px;
+    flex: 0 1 350px;
+}
+
+.img2 {
+    display:flex;
+    justify-content: center;
+    height: 80px;
+    width: 50px;
 }
 
 img {
-    padding: 59px;
-    width: 100%;
+/*    padding: 50px; */
+    margin: 10px;
+    max-width:100%;
+    max-height:100%;
+    border: 3px solid black;
+    border-radius: 60px;
 }
