@@ -2,7 +2,7 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font: 1em sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     margin: 0px;
 }
@@ -11,7 +11,7 @@ body {
     display: flex;
     padding:1px;
     margin: 0px;
-    background-color: #1F2937;
+    background-color: #556B2F;
   /*  color: #F9FAF8; */
     justify-content: space-around;
 }
@@ -20,7 +20,7 @@ body {
     display: flex;
     padding:1px;
     margin: 0px;
-    background-color: #1F2937;
+    background-color: #556B2F;
   /*  color: #F9FAF8; */
     justify-content: center;
 }
@@ -33,6 +33,17 @@ body {
     font-weight: bolder;
     align-items: center;
     justify-content: center;
+}
+
+button {
+    background-color: #3882F6 ;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 p {
@@ -73,14 +84,15 @@ li {
 
 .containerone {
     display: flex;
-    background-color: #1F2937;
+    background-color: #808000;
     justify-content: space-evenly;
   /*  color: white; */
 }
 
 .containertwo {
     display: flex;
-    background-color: darkgrey;
+    background-color: #FFE4B5;
+    color: black;
     justify-content: space-around;
     flex-direction: row;
     flex: 1 1 0;
@@ -89,7 +101,7 @@ li {
 .containerthree {
     display: flex;
     justify-content: space-evenly;
-    background-color: darkgrey;
+    background-color: #FFE4B5;
     padding-bottom: 80px;
     gap: 10px;
 }
@@ -97,6 +109,7 @@ li {
 .containerfour {
     display: flex;
     flex-direction: column;
+    background-color: #F5FFFA;
 }
 
 .containerfour p {
@@ -107,12 +120,12 @@ li {
 .containerfive {
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
+    background-color: #FFE4B5;
     gap: 10px;
 }
 
 .para {
-    background-color: #3882F6  ;
+    background-color: #808000 ;
     padding: 10px;
     font-weight: bold;
     color: white;
@@ -120,7 +133,7 @@ li {
 }
 
 .sign {
-    background-color: #3882F6 ;
+    background-color: #808000;
     padding: 50px;
     font-weight: bold;
     color: white;
@@ -130,16 +143,13 @@ li {
 }
 
 .sign button {
-    padding-left: 25px;
-    padding-right: 25px;
-    border:4px solid;
-    font-size: 18px;
-    
+     border:4px solid #F5FFFA;
+    font-size: 18px;    
 }
 
 .action {
     display: flex;
-    background-color: #3882F6 ;
+    background-color: #808000 ;
     margin: 80px;
     padding: 18px;
     font-weight: bold;
@@ -148,6 +158,7 @@ li {
     align-items: center;
     border-radius: 10px;
     width: 50%;
+    flex-grow: 1;
 }
 
 blockquote {
@@ -155,7 +166,8 @@ blockquote {
     flex-direction: column;
     margin: 50px;
     padding: 35px;
-    color: black
+    color: black;
+    flex-grow: 1;
 }
 
 cite {
@@ -179,14 +191,16 @@ cite {
     gap: 10px;
 } */
 
-button {
+/* button {
     background-color: #3882F6 ;
     padding: 10px;
     font-weight: bold;
     color: white;
     width: fit-content;
     border-radius: 10px;
-}
+    padding-left: 25px;
+    padding-right: 25px;
+} */
 
 .awesome {
     display:flex;
@@ -232,7 +246,7 @@ button {
 }*/
 
 .img2 img {
-    border: 6px solid blue;
+    border: 10px solid #556B2F;
     border-radius: 18px 60px;
 }
 
