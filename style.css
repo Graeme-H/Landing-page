@@ -231,6 +231,14 @@ cite {
     flex: 0 1 350px;
 }
 
+.imgoof {
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    flex: 1 0 1;
+    width: max-content;
+    height: 450px
+}
 
 .img2 {
     display:flex;
